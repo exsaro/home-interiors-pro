@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+.manrope {
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+}
+@font-face {
+  font-family: "Petrov Sans extrabold";
+  src: url("../fonts/PetrovSans-ExtraBold.woff2") format("woff2"),
+    url("../fonts/PetrovSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Petrov Sans bold";
+  src: url("../fonts/PetrovSans-Bold.woff2") format("woff2"),
+    url("../fonts/PetrovSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+h1 {
+  font-family: "Petrov Sans extrabold", serif;
+}
+h2,
+h3 {
+  font-family: "Petrov Sans bold", serif;
+}
+body {
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+.gallery-item{
+  cursor: pointer;
+}
+.gallery-item .details {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.gallery-item:hover .details {
+  opacity: 1;
+  visibility: visible;
+}

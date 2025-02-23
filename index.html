@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+    <title>Home Interiors Pro</title>
+  </head>
+  <body>
+    <header class="py-5 md:px-8 px-4 flex justify-between items-center relative">
+      <div class="logo"><a title="Best Home Interiors" href="index.html"><img src="img/logo.svg" alt="Home Interiors Pro" /></a></div>
+      <nav class="hidden md:block nav absolute md:static right-[17px] bg-black md:bg-transparent top-[90px] w-[200px] md:w-auto p-[15px]">
+        <ul class="md:flex m-0 p-0">
+          <li class="md:mr-8 text-base font-bold py-2"><a class="text-white md:text-[#0E213F]" href="index.html">Home</a></li>
+          <li class="md:mr-8 text-base font-medium py-2">
+            <a class="text-white md:text-[#505660] no-underline" href="#aboutus">About us</a>
+          </li>
+          <li class="md:mr-8 text-base font-medium py-2">
+            <a class="text-white md:text-[#505660] no-underline" href="#services">Services</a>
+          </li>
+          <li class="text-base font-medium py-2">
+            <a class="text-white md:text-[#505660] no-underline" href="#gallery">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="flex md:block items-center">
+      <a
+        href="#contact"
+        class="rounded-lg border border-[#d07828] text-[#0e213f] text-base font-bold py-3 px-4"
+        >Contact us</a
+      >
+      <div class="md:hidden block p-6 pr-0 mobile-nav">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+        </svg>
+        
+      </div>
+    </div>
+    
+    </header>
+    <section class="hero-section py-14 lg:py-0 max-w-[1188px] lg:flex mx-auto items-center mb-8 px-6">
+      <div class="lg:w-[40%] lg:mr-10 text-center lg:text-left">
+        <h1 class="text-[#0e213f] text-[54px] leading-[50px] mb-2">
+          Transform your home with expert interior works
+        </h1>
+        <p class="text-[#4f555f] text-base font-normal mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor
+          incididunt ut labore et dolore
+        </p>
+        <a
+          href="#contact"
+          class="inline-flex py-4 px-6 items-center bg-gradient-to-l from-[#fccb3f] to-[#d07828] rounded-lg"
+        >
+          <span class="text-white text-base font-bold mr-8"
+            >Discuss with us</span
+          >
+          <img src="img/right-arrow-white.svg" alt="" />
+        </a>
+      </div>
+      <div class="hidden lg:block"><img src="img/hero-img.png" alt="" /></div>
+    </section>
+    <section
+      class="max-w-[1188px] opacity-80 lg:flex bg-[#140202] lg:rounded-lg px-16 lg:py-26 py-16 mx-auto justify-between items-center mb-16"
+      id="aboutus"
+    >
+      <div class="w-[35%] hidden lg:block"><img src="img/about-img.png" alt="" /></div>
+      <div class="lg:w-[55%] text-center lg:text-left">
+        <p
+          class="text-white text-xs font-bold leading-normal tracking-[6px] mb-1"
+        >
+          ABOUT US
+        </p>
+        <h2 class="text-white text-4xl font-bold leading-10 mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscingia
+        </h2>
+        <p class="text-white text-base font-normal leading-normal">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laLorem ipsum dolor
+          sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco la
+        </p>
+      </div>
+    </section>
+    <section class="max-w-[1188px] mx-auto mb-16" id="services">
+      <div class="text-center mb-8">
+        <p
+          class="text-[#505660] text-xs font-bold leading-normal tracking-[6px] mb-1"
+        >
+          SERVICES
+        </p>
+        <h2 class="text-[#0e213f] text-4xl">Lorumisum Dolarsitamit</h2>
+      </div>
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+        <div class="bg-white shadow-lg p-8 rounded-lg">
+          <div class="mb-5">
+            <img
+              src="img/services/pvc-work.png"
+              class="w-full"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h3 class="mb-2 text-[#0E213F] text-[24px]">PVC Work</h3>
+          <ul class="list-outside list-disc ml-4">
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Modular Kitchen</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Cupboard (Wardrobe)</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">TV Showcase</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Bathroom Door</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Pooja Unit</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white shadow-lg p-8 rounded-lg">
+          <div class="mb-5">
+            <img
+              src="img/services/false-cieling.png"
+              class="w-full"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h3 class="mb-2 text-[#0E213F] text-[24px]">False Cieling</h3>
+          <ul class="list-outside list-disc ml-4">
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Plain Ceiling</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Design Ceiling</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Grid Ceiling</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Pooja Unit</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white shadow-lg p-8 rounded-lg">
+          <div class="mb-5">
+            <img
+              src="img/services/wood-work.png"
+              class="w-full"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h3 class="mb-2 text-[#0E213F] text-[24px]">Wood Work</h3>
+          <ul class="list-outside list-disc ml-4">
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Modular Kitchen</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Cupboard (Wardrobe)</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">TV Showcase</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white shadow-lg p-8 rounded-lg">
+          <div class="mb-5">
+            <img
+              src="img/services/upvc-work.png"
+              class="w-full"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h3 class="mb-2 text-[#0E213F] text-[24px]">UPVC Work</h3>
+          <ul class="list-outside list-disc ml-4">
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">UPVC Window</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">UPVC Door</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white shadow-lg p-8 rounded-lg">
+          <div class="mb-5">
+            <img
+              src="img/services/mosquito-net-work.png"
+              class="w-full"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h3 class="mb-2 text-[#0E213F] text-[24px]">Mosquito Net Work</h3>
+          <ul class="list-outside list-disc ml-4">
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Aluminium Frame</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">SS Mesh (open type)</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white shadow-lg p-8 rounded-lg">
+          <div class="mb-5">
+            <img
+              src="img/services/aluminium-work.png"
+              class="w-full"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <h3 class="mb-2 text-[#0E213F] text-[24px]">Aluminium Work</h3>
+          <ul class="list-outside list-disc ml-4">
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Aluminium Partition</span>
+            </li>
+            <li class="text-[#DB8E2E]">
+              <span class="text-[#505660]">Sliding Window</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto mb-26">
+      <div class="text-center mb-8">
+        <p
+          class="text-[#505660] text-xs font-bold leading-normal tracking-[6px] mb-1"
+        >
+          PORTFOLIO / GALLERY
+        </p>
+        <h2 class="text-[#0e213f] text-4xl">Lorumisum Dolarsitamit</h2>
+      </div>
+      <div id="gallery" class="flex justify-center">
+      <div class="flex overflow-x-auto justify-center gallery-slider w-[2000px]">
+        <div class="mx-3 relative gallery-item">
+          <img src="img/gallery/wood-work.png" alt="" />
+          <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
+            <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>PVC Work</strong></p>
+          </div>
+        </div>
+        <div class="mx-3 relative gallery-item">
+          <img src="img/gallery/wood-work.png" alt="" />
+          <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
+            <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>False Cieling</strong></p>
+          </div>
+        </div>
+        <div class="mx-3 relative gallery-item">
+          <img src="img/gallery/wood-work.png" alt="" />
+          <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
+            <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>Wood Work</strong></p>
+          </div>
+        </div>
+        <div class="mx-3 relative gallery-item">
+          <img src="img/gallery/wood-work.png" alt="" />
+          <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
+            <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>UPVC Work</strong></p>
+          </div>
+        </div>
+        <div class="mx-3 relative gallery-item">
+          <img src="img/gallery/wood-work.png" alt="" />
+          <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
+            <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>Mosquito Net Work</strong></p>
+          </div>
+        </div>
+        <div class="mx-3 relative gallery-item">
+          <img src="img/gallery/wood-work.png" alt="" />
+          <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
+            <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>Aluminium Work</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="max-w-[1188px] mx-auto mb-14">
+      <div class="text-center mb-8">
+        <p
+          class="text-[#505660] text-xs font-bold leading-normal tracking-[6px] mb-1 uppercase"
+        >
+          Testimonials
+        </p>
+        <h2 class="text-[#0e213f] text-4xl">
+          Our clients are our biggest fans
+        </h2>
+      </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide md:w-[65%] w-[85%] mx-auto"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner mx-auto shadow-lg p-8 rounded-lg">
+          <div class="carousel-item active">
+            <img src="img/quote.svg" alt="" />
+            <p class="mt-3 mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laLorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+            </p>
+            <div>
+              <p class="m-0 text-[18px] text-[#132641]">
+                <strong>Mathew Goodman</strong>
+              </p>
+              <p class="text-[12px] text-[#505660]">
+                Company name / designation
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/quote.svg" alt="" />
+            <p class="mt-3 mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laLorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+            </p>
+            <div>
+              <p class="m-0 text-[18px] text-[#132641]">
+                <strong>Mathew Goodman</strong>
+              </p>
+              <p class="text-[12px] text-[#505660]">
+                Company name / designation
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/quote.svg" alt="" />
+            <p class="mt-3 mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laLorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+            </p>
+            <div>
+              <p class="m-0 text-[18px] text-[#132641]">
+                <strong>Mathew Goodman</strong>
+              </p>
+              <p class="text-[12px] text-[#505660]">
+                Company name / designation
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev md:left-[-80px]! left-[-27px]! w-[9%]! rounded-lg bg-black!"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span aria-hidden="true" class="-scale-100"
+            ><img src="img/right-arrow-white.svg" alt=""
+          /></span>
+        </button>
+        <button
+          class="carousel-control-next md:right-[-80px]! right-[-27px]! w-[9%]! rounded-lg bg-black!"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span aria-hidden="true"
+            ><img src="img/right-arrow-white.svg" alt=""
+          /></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="bg-gradient-to-r from-[#fccb3f] to-[#d07828] py-14">
+      <div class="lg:max-w-[50%] mx-auto">
+        <div class="text-center">
+          <p
+            class="text-[#fff] text-xs font-bold leading-normal tracking-[6px] mb-1 uppercase"
+          >
+            LORUMIPSUM
+          </p>
+          <h2 class="text-[#fff] text-4xl mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod
+          </h2>
+          <p class="text-[#F4F5F6] mb-14">
+            Lorem ipsum dolor sit onsectetur adipiscing elit, sed do eiusmod
+            tempor incidi ipsum dolor sit amet,
+          </p>
+          <a
+            class="rounded-lg py-2 px-4 border border-white text-white text-base font-bold leading-normal mb-0"
+            href=""
+            >Talk to us</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="opacity-80 bg-[#140202] py-14" id="contact">
+      <div class="max-w-[1188px] mx-auto md:flex items-center px-6">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <h2 class="text-[#fff] text-4xl mb-2">How can WE help you?</h2>
+          <p class="text-white text-sm font-normal leading-relaxed">
+            Lorem Lorem ipsum dolor sit amelorrumit, m ipsum consectetur
+            adipiscing elit, seded do eiusmod do eiusmod tempor incidi lorum
+            dunt ut labore um dolor sipiscing elit, seded dt ametlorumio
+          </p>
+        </div>
+        <div class="form-container md:w-1/2 md:px-8">
+          <form>
+            <div class="mb-6">
+              <label
+                for="name"
+                class="text-white text-[13px] font-normal block pb-1"
+                >Full Name</label
+              >
+              <input
+                class="opacity-50 rounded-lg border border-white w-full py-2 px-4 text-white"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="email"
+                class="text-white text-[13px] font-normal block pb-1"
+                >Email Address</label
+              >
+              <input
+                class="opacity-50 rounded-lg border border-white w-full py-2 px-4 text-white"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="phone"
+                class="text-white text-[13px] font-normal block pb-1"
+                >Phone Number</label
+              >
+              <input
+                class="opacity-50 rounded-lg border border-white w-full py-2 px-4 text-white"
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="message"
+                class="text-white text-[13px] font-normal block pb-1"
+                >Tell us what you're looking for</label
+              >
+              <textarea
+                class="opacity-50 rounded-lg border border-white w-full py-2 px-4 text-white"
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button
+              class="rounded-lg w-full border border-white text-white text-base font-bold py-3 cursor-pointer"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="md:py-26 py-8 px-6">
+      <div class="max-w-[1188px] mx-auto">
+        <div class="logo mb-4"><a href="index.html"><img class="grayscale mx-auto md:mx-0" height="78" src="img/logo.svg" alt="" /></a></div>
+        <div class="md:flex md:justify-between items-center border-y border-[#d3d3d3] py-6">
+          <nav class="mb-4 md:mb-0">
+            <ul class="flex justify-center m-0 p-0">
+              <li class="mr-8 text-sm font-medium"><a class="text-[#505660]" href="#services">Services</a></li>
+              <li class="mr-8 text-sm font-medium">
+                <a class="text-[#505660] no-underline" href="#contact">Contact us</a>
+              </li>
+              <li class="text-sm font-medium">
+                <a class="text-[#505660] no-underline" href="#gallery">Gallery</a>
+              </li>
+              </ul>
+          </nav>
+          <div class="social-links flex justify-center items-center">
+            <a class="mr-3" href=""><img src="img/facebook.svg" alt="" /></a>
+            <a class="mr-3" href=""><img src="img/x.svg" alt="" /></a>
+            <a href=""><img src="img/linkedin.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="mt-8">
+          <p class="text-[#4c4545] text-xs font-normal text-center md:text-left">
+            Copyrights &copy; <span id="year"></span> All Rights Reserved
+      </div>
+    </footer>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>    
+  </body>
+</html>
