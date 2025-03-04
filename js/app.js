@@ -26,4 +26,28 @@ $(document).ready(function() {
     $(".mobile-nav").on("click", function() {
         $(".nav").slideToggle();
     });
+
+
+    // Form Validation
+    $("#enquiryForm").validate();
+    $('#enquiryForm').submit(function (event) {
+        alert('Form submitted');
+        event.preventDefault(); // Prevent form submission
+
+        const formValues = {
+            name: $('#name').val(),
+            email: $('#email').val(),
+            message: $('#message').val()
+        };
+
+        const errors = validate(formValues, constraints);
+        if (errors) {
+            const errorMessage = Object.values(errors)
+                .map(fieldValues => fieldValues.join(', '))
+                .join("\n");
+            alert(errorMessage);
+        } else {
+            this.submit(); // Submit the form if no errors
+        }
+    });
 });

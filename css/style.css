@@ -46,3 +46,10 @@ body {
   opacity: 1;
   visibility: visible;
 }
+.form-container .error {
+  color: #fccb3f;
+  font-size: 0.8rem;
+}
+.form-container input.error,.form-container textarea.error{
+  border-color: #fccb3f;
+}
