@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/modal.css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
@@ -237,37 +238,37 @@
       <div id="gallery" class="flex justify-center">
       <div class="flex overflow-x-auto justify-center gallery-slider w-[2000px]">
         <div class="mx-3 relative gallery-item">
-          <img src="img/gallery/pvc-work.png" alt="" />
+          <a href="#" data-bs-toggle="modal" data-bs-target="#pvcModal"><img src="img/gallery/pvc-work.png" alt="" /></a>
           <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
             <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>PVC Work</strong></p>
           </div>
         </div>
         <div class="mx-3 relative gallery-item">
-          <img src="img/gallery/false-ceiling-work.png" alt="" />
+          <a href="#" data-bs-toggle="modal" data-bs-target="#falseCielingModal"><img src="img/gallery/false-ceiling-work.png" alt="" /></a>
           <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
             <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>False Cieling</strong></p>
           </div>
         </div>
         <div class="mx-3 relative gallery-item">
-          <img src="img/gallery/wood-work.png" alt="" />
+          <a href="#" data-bs-toggle="modal" data-bs-target="#woodModal"><img src="img/gallery/wood-work.png" alt="" /></a>
           <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
             <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>Wood Work</strong></p>
           </div>
         </div>
         <div class="mx-3 relative gallery-item">
-          <img src="img/gallery/upvc-work.png" alt="" />
+          <a href="#" data-bs-toggle="modal" data-bs-target="#upvcModal"><img src="img/gallery/upvc-work.png" alt="" /></a>
           <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
             <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>UPVC Work</strong></p>
           </div>
         </div>
         <div class="mx-3 relative gallery-item">
-          <img src="img/gallery/netlon-work.png" alt="" />
+          <a href="#" data-bs-toggle="modal" data-bs-target="#netlonModal"><img src="img/gallery/netlon-work.png" alt="" /></a>
           <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
             <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>Mosquito Net Work</strong></p>
           </div>
         </div>
         <div class="mx-3 relative gallery-item">
-          <img src="img/gallery/aluminium-work.png" alt="" />
+          <a href="#" data-bs-toggle="modal" data-bs-target="#partitionModal"><img src="img/gallery/aluminium-work.png" alt="" /></a>
           <div class="details bg-gradient-to-b from-[rgba(255,255,255,0)] flex items-end h-[150px] to-[#000d21] absolute bottom-0 left-0 right-0 p-4 rounded-lg">
             <p class="text-[#ffffff] text-[18px] pb-[20px] pl-[20px]"><strong>Aluminium Work</strong></p>
           </div>
@@ -506,6 +507,398 @@
             Copyrights &copy; <span id="year"></span> All Rights Reserved
       </div>
     </footer>
+
+
+    <div class="modal fade" id="falseCielingModal" tabindex="-1" aria-labelledby="falseCielingModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content" style="background: transparent; border: none;">
+              <div class="modal-body p-5 bg-white">
+                <div id="carouselFalseCieling" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/gallery/false-ceiling/1.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/2.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/3.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/4.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/5.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/6.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/7.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/8.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/9.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/10.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/11.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/12.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/13.jpg" class="d-block w-full" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/gallery/false-ceiling/14.jpg" class="d-block w-full" alt="...">
+                    </div>
+                </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselFalseCieling" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselFalseCieling" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="partitionModal" tabindex="-1" aria-labelledby="partitionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content" style="background: transparent; border: none;">
+            <div class="modal-body p-5 bg-white">
+              <div id="carouselPartition" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="img/gallery/partition/1.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/2.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/3.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/4.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/5.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/6.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/7.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/8.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/9.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/10.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/11.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/12.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/13.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/partition/14.jpg" class="d-block w-full" alt="...">
+                  </div>
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPartition" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPartition" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div class="modal fade" id="netlonModal" tabindex="-1" aria-labelledby="netlonModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content" style="background: transparent; border: none;">
+            <div class="modal-body p-5 bg-white">
+              <div id="carouselNetlon" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="img/gallery/netlon/1.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/2.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/3.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/4.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/5.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/6.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/7.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/8.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/9.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/10.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/11.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/12.jpg" class="d-block w-full" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gallery/netlon/13.jpg" class="d-block w-full" alt="...">
+                  </div>
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNetlon" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselNetlon" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="pvcModal" tabindex="-1" aria-labelledby="pvcModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+      <div class="modal-content" style="background: transparent; border: none;">
+          <div class="modal-body p-5 bg-white">
+            <div id="carouselPvc" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/gallery/pvc/1.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/2.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/3.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/4.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/5.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/6.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/7.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/8.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/9.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/10.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/11.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/12.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/13.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/14.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/15.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/16.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/17.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/18.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/19.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/pvc/20.jpg" class="d-block w-full" alt="...">
+                </div>
+            </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselPvc" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselPvc" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="woodModal" tabindex="-1" aria-labelledby="woodModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+      <div class="modal-content" style="background: transparent; border: none;">
+          <div class="modal-body p-5 bg-white">
+            <div id="carouselWood" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/gallery/wood/1.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/2.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/3.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/4.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/5.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/6.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/7.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/8.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/9.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/10.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/11.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/12.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/13.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/14.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/15.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/16.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/17.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/18.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/19.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/wood/20.jpg" class="d-block w-full" alt="...">
+                </div>
+            </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselWood" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselWood" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="upvcModal" tabindex="-1" aria-labelledby="upvcModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+      <div class="modal-content" style="background: transparent; border: none;">
+          <div class="modal-body p-5 bg-white">
+            <div id="carouselUpvc" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/gallery/upvc/1.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/upvc/2.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/upvc/3.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/upvc/4.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/upvc/5.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/upvc/6.jpg" class="d-block w-full" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gallery/upvc/7.jpg" class="d-block w-full" alt="...">
+                </div>
+                
+            </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselUpvc" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselUpvc" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
