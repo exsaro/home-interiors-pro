@@ -31,7 +31,6 @@ $(document).ready(function() {
     // Form Validation
     $("#enquiryForm").validate();
     $('#enquiryForm').submit(function (event) {
-        alert('Form submitted');
         event.preventDefault(); // Prevent form submission
 
         const formValues = {
