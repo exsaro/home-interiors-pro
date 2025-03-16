@@ -30,23 +30,23 @@ $(document).ready(function() {
 
     // Form Validation
     $("#enquiryForm").validate();
-    $('#enquiryForm').submit(function (event) {
-        event.preventDefault(); // Prevent form submission
+    // $('#enquiryForm').submit(function (event) {
+    //     event.preventDefault(); 
 
-        const formValues = {
-            name: $('#name').val(),
-            email: $('#email').val(),
-            message: $('#message').val()
-        };
+    //     const formValues = {
+    //         name: $('#name').val(),
+    //         email: $('#email').val(),
+    //         message: $('#message').val()
+    //     };
 
-        const errors = validate(formValues, constraints);
-        if (errors) {
-            const errorMessage = Object.values(errors)
-                .map(fieldValues => fieldValues.join(', '))
-                .join("\n");
-            alert(errorMessage);
-        } else {
-            this.submit(); // Submit the form if no errors
-        }
-    });
+    //     const errors = validate(formValues, constraints);
+    //     if (errors) {
+    //         const errorMessage = Object.values(errors)
+    //             .map(fieldValues => fieldValues.join(', '))
+    //             .join("\n");
+    //         alert(errorMessage);
+    //     } else {
+    //         this.submit(); 
+    //     }
+    // });
 });

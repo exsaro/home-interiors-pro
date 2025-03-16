@@ -33,14 +33,14 @@ if (!empty($_POST)) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'exsat.kumar@gmail.com';
-        $mail->Password = 'rolhuxipnlgpfwsn';
+        $mail->Username = 'seenu888g@gmail.com';
+        $mail->Password = 'yxljvkpdduinkhll';
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
-        $mail->setFrom('exsat.kumar@gmail.com', 'Mailtrap Website');
-        $mail->addAddress('exsat.kumar@gmail.com', 'Me');
-        $mail->Subject = 'New message from your website';
+        $mail->setFrom('seenu888g@gmail.com', 'Home Interiors Pro Website - Enquiry');
+        $mail->addAddress('seenu888g@gmail.com', 'Me');
+        $mail->Subject = 'New Enquiry from Home Interiors Pro Website';
         // Enable HTML if needed
         $mail->isHTML(true);
         $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Phone: {$phone}", "Message:", nl2br($message)];
